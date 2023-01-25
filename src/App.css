@@ -1,0 +1,32 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style-type: none;
+}
+
+body {
+  color: #12363c;
+}
+
+/* Navbar Event */
+
+@media screen and (max-width: 768px) {
+  .nav.active {
+    right: 0;
+  }
+
+  .mobile-nav {
+    display: flex;
+    z-index: 10;
+    font-size: 2rem;
+    cursor: pointer;
+  }
+}
