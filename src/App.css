@@ -17,6 +17,7 @@ li {
 body {
   color: #12363c;
   font-family: "Poppins", sans-serif;
+  overflow-x: hidden;
 }
 
 /* Navbar Event */
