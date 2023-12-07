@@ -65,8 +65,9 @@ const NavItem = styled.li`
 `;
 
 const NavLink = styled.a`
-  font-weight: 500;
+  font-weight: 600;
   font-size: 18px;
+  cursor: pointer;
 
   @media screen and (max-width: 768px) {
     font-size: 23px;

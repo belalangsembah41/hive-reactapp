@@ -45,15 +45,11 @@ const FunctionCardContainer = styled.div`
 `;
 
 const FunctionCard = styled.div`
-  position: relative;
-  width: 300px;
-  height: 500px;
-  margin: 2rem 2rem 0;
+  margin: 2rem 1rem;
   padding: 1rem;
   display: flex;
   flex-direction: column;
   border-radius: 10px;
-  flex-grow: 2;
   box-shadow: 0 10px 20px 0px rgba(0, 0, 0, 0.3);
   background-color: #f0f7fa;
 
@@ -72,7 +68,7 @@ const FunctionCard = styled.div`
 
 const FunctionImg = styled.img`
   width: 100%;
-  height: 300px;
+  height: 200px;
   border-radius: 10px;
   object-fit: cover;
 `;
@@ -89,15 +85,16 @@ const CardTitle = styled.div`
 `;
 
 const CardDetail = styled.div`
+  width: 100%;
   display: flex;
   justify-content: space-between;
   margin-top: 1.5rem;
 `;
 
-const Button = styled.button`
+const Button = styled.a`
   padding: 0.5rem 1rem;
-  width: 100%;
   margin-top: 1rem;
+  text-align: center;
   font-size: 18px;
   background-color: #3a86a8;
   border: none;

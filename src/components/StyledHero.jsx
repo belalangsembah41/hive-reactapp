@@ -8,11 +8,23 @@ const HeroContainer = styled.section`
   width: 100%;
   max-width: 1400px;
   height: 80vh;
-  color: #12363C;
+  color: #ffffff;
   padding: 1rem;
 
   h1 {
     font-size: 35px;
+  }
+
+  h2 {
+    margin-top: 10px;
+  }
+
+  h1,
+  h2 {
+    display: inline-block;
+    background-color: #295164;
+    padding: 15px;
+    border-radius: 10px;
   }
 `;
 
