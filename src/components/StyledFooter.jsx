@@ -32,13 +32,14 @@ const NewsletterText = styled.div`
 `;
 
 const NewsletterInput = styled.input`
-  height: 30px;
-  width: 400px;
+  height: 40px;
+  width: 600px;
   border: none;
   border-radius: 5px;
-  padding-left: 1rem;
+  padding-left: 10px;
   font-weight: 500;
-  font-size: 16px;
+  font-size: 18px;
+  line-height: 40px;
   color: #000;
   outline: none;
 `;
@@ -46,7 +47,7 @@ const NewsletterInput = styled.input`
 const FooterMain = styled.div`
   display: flex;
   padding: 1rem 2rem;
-  margin-top: 1rem;
+  margin-top: 2rem;
   color: #f0f7fa;
 
   @media screen and (max-width: 848px) {
@@ -64,6 +65,7 @@ const About = styled.div`
 
   p {
     margin-top: 0.5rem;
+    width: 80%;
   }
 `;
 

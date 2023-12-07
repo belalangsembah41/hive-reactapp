@@ -46,6 +46,19 @@ const Functions = () => {
           </CardTitle>
           <Button>See Details</Button>
         </FunctionCard>
+        <FunctionCard>
+          <FunctionImg src={SentaniImg} />
+          <CardTitle>
+            <h2>Reoxfa House</h2>
+            <h4>2610 Gallatin Pike, Nashville Tennessee</h4>
+            <CardDetail>
+              <p>3 Rooms</p>
+              <p>2 Bathrooms</p>
+              <p>1200 Sq.Ft</p>
+            </CardDetail>
+          </CardTitle>
+          <Button>See Details</Button>
+        </FunctionCard>
       </FunctionCardContainer>
     </FunctionContainer>
   );

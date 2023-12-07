@@ -46,10 +46,11 @@ const DiscoverCard = styled.div`
   position: relative;
   width: 300px;
   height: 400px;
-  margin: 2rem 2rem 0;
+  margin: 2rem 1rem;
   border-radius: 10px;
   flex-grow: 2;
   box-shadow: 0 10px 20px 0px rgba(0, 0, 0, 0.3);
+  cursor: pointer;
 
   h1 {
     position: relative;
@@ -80,7 +81,7 @@ const DiscoverButton = styled.button`
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 1rem 5rem;
+  padding: 0.8rem 2rem;
   margin: 2.5rem auto;
   font-size: 18px;
   background-color: #3a86a8;
